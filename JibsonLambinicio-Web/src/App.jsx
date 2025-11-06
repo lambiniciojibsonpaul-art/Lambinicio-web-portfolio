@@ -2,7 +2,9 @@ import { useState, useEffect } from 'react'
 import './App.css'
 import profilePhoto from './assets/jibsonlambinicio.jpg'
 import resumePDF from './assets/Jibson_Lambinicio_Resume.pdf'
-import { FaMapMarkerAlt, FaEnvelope, FaPhone, FaLinkedin, FaGraduationCap, FaBriefcase, FaGithub, FaArrowUp, FaDownload } from 'react-icons/fa'
+import logo from './assets/Logo.png'
+import gameTrailer from './assets/cybereum_trailer.mp4'
+import { FaMapMarkerAlt, FaEnvelope, FaPhone, FaLinkedin, FaGraduationCap, FaBriefcase, FaGithub, FaArrowUp, FaDownload, FaPlay } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { IoLocationSharp } from 'react-icons/io5'
 
@@ -12,6 +14,7 @@ function App() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isDarkMode, setIsDarkMode] = useState(false)
   const [showBackToTop, setShowBackToTop] = useState(false)
+  const [showVideoModal, setShowVideoModal] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -89,6 +92,14 @@ function App() {
       top: 0,
       behavior: 'smooth'
     })
+  }
+
+  const openVideoModal = () => {
+    setShowVideoModal(true)
+  }
+
+  const closeVideoModal = () => {
+    setShowVideoModal(false)
   }
 
   return (
@@ -292,6 +303,9 @@ function App() {
                 </div>
               </div>
             </div>
+            <button className="btn-primary project-btn" onClick={openVideoModal}>
+              <FaPlay /> View Project 
+            </button>
           </div>
         </div>
       </section>
@@ -465,6 +479,20 @@ function App() {
       >
         <FaArrowUp />
       </button>
+
+      {/* Video Modal */}
+      {showVideoModal && (
+        <div className="video-modal" onClick={closeVideoModal}>
+          <div className="video-modal-content" onClick={(e) => e.stopPropagation()}>
+            <button className="close-modal" onClick={closeVideoModal}>×</button>
+            <h2>Cybereum Game Preview</h2>
+            <video controls autoPlay>
+              <source src={gameTrailer} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      )}
     </div>
   )
 }
