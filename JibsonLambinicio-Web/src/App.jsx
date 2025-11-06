@@ -379,7 +379,7 @@ function App() {
         </div>
       </section>
 
-      {/* Contact Section */}
+         {/* Contact Section */}
       <section id="contact" className="contact">
         <div className="container">
           <h2 className="section-title animate-on-scroll">Get In Touch</h2>
@@ -426,8 +426,6 @@ function App() {
                 </button>
               </form>
             </div>
-
-         
           </div>
         </div>
       </section>
