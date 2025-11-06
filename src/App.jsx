@@ -195,8 +195,10 @@ function App() {
               <div className="objective-box">
                 <h3>My Objective</h3>
                 <p>
-                  To develop scalable, AI-driven digital solutions that enhance productivity, reliability, and user experience while continuously expanding my 
-                  expertise in artificial intelligence, exploring new programming languages and frameworks, and making a meaningful impact in the tech industry.
+                  To develop scalable, AI-driven digital solutions that enhance productivity, reliability, and user
+                  experience, while continuously learning new technologies, programming languages, and frameworks
+                  to make a meaningful impact in the tech industry.
+
                 </p>
               </div>
             </div>
