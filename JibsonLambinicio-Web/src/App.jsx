@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import profilePhoto from './assets/jibsonlambinicio.jpg'
-import { FaMapMarkerAlt, FaEnvelope, FaPhone, FaLinkedin, FaGraduationCap, FaBriefcase, FaGithub, FaArrowUp } from 'react-icons/fa'
+import resumePDF from './assets/Jibson_Lambinicio_Resume.pdf'
+import { FaMapMarkerAlt, FaEnvelope, FaPhone, FaLinkedin, FaGraduationCap, FaBriefcase, FaGithub, FaArrowUp, FaDownload } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { IoLocationSharp } from 'react-icons/io5'
 
@@ -145,6 +146,13 @@ function App() {
             <div className="cta-buttons">
               <button className="btn-primary" onClick={() => scrollToSection('contact')}>Get In Touch</button>
               <button className="btn-secondary" onClick={() => scrollToSection('projects')}>View My Work</button>
+              <a 
+                href={resumePDF} 
+                download="Jibson_Lambinicio_Resume.pdf"
+                className="btn-download"
+              >
+                <FaDownload /> Download Resume
+              </a>
             </div>
           </div>
         </div>
