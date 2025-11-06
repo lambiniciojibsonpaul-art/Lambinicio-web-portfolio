@@ -187,7 +187,7 @@ function App() {
                 <div className="stat-label">BS IT Graduate</div>
               </div>
               <div className="stat-card">
-                <div className="stat-number">100+</div>
+                <div className="stat-number">50+</div>
                 <div className="stat-label">Systems Deployed</div>
               </div>
               <div className="stat-card">
@@ -237,7 +237,7 @@ function App() {
                   <span className="duration">Feb 2025 - May 2025</span>
                 </div>
                 <ul className="responsibilities">
-                  <li>Assisted in troubleshooting, configuring, and deploying over 100+ IT systems and devices, ensuring smooth daily operations across departments</li>
+                  <li>Assisted in troubleshooting, configuring, and deploying over 50+ IT systems and devices, ensuring smooth daily operations across departments</li>
                   <li>Managed event schedules using the 22Miles digital signage system, supporting multiple business units for real-time display updates</li>
                   <li>Recorded and organized deployed and faulty IT devices using Microsoft Excel, improving tracking accuracy and documentation efficiency</li>
                   <li>Prepared technical reports and assisted in project planning, contributing to well-documented and organized project workflows</li>
