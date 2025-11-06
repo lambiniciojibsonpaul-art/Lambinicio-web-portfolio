@@ -152,7 +152,7 @@ function App() {
           <div className="hero-text">
             <h1 className="greeting">Hi, I'm</h1>
             <h1 className="name">Jibson Paul Lambinicio</h1>
-            <p className="tagline">Fresh IT Graduate | Web Developer | Problem Solver</p>
+            <p className="tagline">Fresh IT Graduate | Software Developer | AI-Powered Developer</p>
             <p className="subtitle">Building innovative and reliable digital solutions with passion and creativity</p>
             <div className="cta-buttons">
               <button className="btn-primary" onClick={() => scrollToSection('contact')}>Get In Touch</button>
@@ -179,39 +179,39 @@ function App() {
           <div className="about-content">
             <div className="about-text animate-on-scroll">
               <p className="intro">
-                Hello! I'm Jibson Paul, a motivated IT graduate from Lyceum of the Philippines University Cavite. 
-                I'm passionate about creating meaningful digital experiences and solving real-world problems through technology.
+                Hello! I’m Jibson Paul, an Information Technology graduate from Lyceum of the Philippines University – Cavite, 
+                passionate about turning ideas into intelligent, efficient, and impactful digital solutions.
               </p>
               <p>
-                With a strong foundation in software and web development, game design, and databases, combined with 
-                hands-on experience in IT support during my internship at OKADA Manila, I bring both technical 
-                knowledge and practical problem-solving skills to every project.
+                My background in software and web development, game design, and IT support has strengthened my ability to approach technical challenges 
+                with both creativity and precision. During my internship at OKADA Manila, I optimized system operations, streamlined processes, and gained
+                valuable hands-on experience in enterprise-level IT environments.
               </p>
               <p>
-                I believe in continuous learning and staying updated with the latest technologies. Whether it's 
-                developing a gamified cybersecurity education app or troubleshooting complex IT systems, I approach 
-                every challenge with enthusiasm and dedication.
+                I actively leverage AI technologies to enhance productivity, streamline development, and improve overall efficiency. 
+                Beyond practical application, I’m committed to deepening my understanding of artificial intelligence and how it drives automation, innovation, 
+                and the creation of smarter software systems.
               </p>
               <div className="objective-box">
                 <h3>My Objective</h3>
                 <p>
-                  To contribute to innovative and reliable digital solutions while continuously developing my 
-                  technical expertise and making a positive impact in the tech industry.
+                  To develop scalable, AI-driven digital solutions that enhance productivity, reliability, and user experience while continuously expanding my 
+                  expertise in artificial intelligence, exploring new programming languages and frameworks, and making a meaningful impact in the tech industry.
                 </p>
               </div>
             </div>
             <div className="about-stats animate-on-scroll">
               <div className="stat-card">
                 <div className="stat-number">2025</div>
-                <div className="stat-label">BS IT Graduate</div>
+                <div className="stat-label">BS Information Technology Graduate</div>
               </div>
               <div className="stat-card">
-                <div className="stat-number">50+</div>
-                <div className="stat-label">Systems Deployed</div>
+                <div className="stat-number">AI-Driven Workflow</div>
+                <div className="stat-label">Using AI tools to code faster, stay organized, and work smarter</div>
               </div>
               <div className="stat-card">
-                <div className="stat-number">98%</div>
-                <div className="stat-label">Project Success Rate</div>
+                <div className="stat-number">98% App Efficiency</div>
+                <div className="stat-label">Tested and optimized in real-world project development</div>
               </div>
             </div>
           </div>
@@ -320,11 +320,11 @@ function App() {
               <div className="skill-items">
                 <div className="skill-item">
                   <span className="skill-name">JavaScript</span>
-                  <div className="skill-bar"><div className="skill-level" style={{width: '90%'}}></div></div>
+                  <div className="skill-bar"><div className="skill-level" style={{width: '80%'}}></div></div>
                 </div>
                 <div className="skill-item">
                   <span className="skill-name">Python</span>
-                  <div className="skill-bar"><div className="skill-level" style={{width: '85%'}}></div></div>
+                  <div className="skill-bar"><div className="skill-level" style={{width: '65%'}}></div></div>
                 </div>
                 <div className="skill-item">
                   <span className="skill-name">C#</span>
@@ -332,11 +332,11 @@ function App() {
                 </div>
                 <div className="skill-item">
                   <span className="skill-name">HTML/CSS</span>
-                  <div className="skill-bar"><div className="skill-level" style={{width: '95%'}}></div></div>
+                  <div className="skill-bar"><div className="skill-level" style={{width: '90%'}}></div></div>
                 </div>
                 <div className="skill-item">
                   <span className="skill-name">SQL</span>
-                  <div className="skill-bar"><div className="skill-level" style={{width: '85%'}}></div></div>
+                  <div className="skill-bar"><div className="skill-level" style={{width: '75%'}}></div></div>
                 </div>
               </div>
             </div>
