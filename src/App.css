@@ -759,14 +759,6 @@ section {
   box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.2), 0 0 15px rgba(255, 255, 255, 0.4);
 }
 
-.timeline-item:last-of-type {
-  opacity: 0.5;
-}
-
-.timeline-item:first-of-type {
-  opacity: 1;
-}
-
 .timeline-content {
   background: white;
   padding: 2rem;
