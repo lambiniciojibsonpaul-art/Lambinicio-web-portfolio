@@ -152,7 +152,7 @@ function App() {
           <div className="hero-text">
             <h1 className="greeting">Hi, I'm</h1>
             <h1 className="name">Jibson Paul Lambinicio</h1>
-            <p className="tagline">Fresh IT Graduate | Software Developer | AI-Powered Developer</p>
+            <p className="tagline">Junior Web Developer | Software Developer | AI-Powered Developer</p>
             <p className="subtitle">Building innovative and reliable digital solutions with passion and creativity</p>
             <div className="cta-buttons">
               <button className="btn-primary" onClick={() => scrollToSection('contact')}>Get In Touch</button>
@@ -167,9 +167,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="scroll-indicator" onClick={() => scrollToSection('about')}>
-          <div className="mouse"></div>
-        </div>
+      
       </section>
 
       {/* About Section */}
@@ -182,11 +180,7 @@ function App() {
                 Hello! I’m Jibson Paul, an Information Technology graduate from Lyceum of the Philippines University – Cavite, 
                 passionate about turning ideas into intelligent, efficient, and impactful digital solutions.
               </p>
-              <p>
-                My background in software and web development, game design, and IT support has strengthened my ability to approach technical challenges 
-                with both creativity and precision. During my internship at OKADA Manila, I optimized system operations, streamlined processes, and gained
-                valuable hands-on experience in enterprise-level IT environments.
-              </p>
+
               <p>
                 I actively leverage AI technologies to enhance productivity, streamline development, and improve overall efficiency. 
                 Beyond practical application, I’m committed to deepening my understanding of artificial intelligence and how it drives automation, innovation, 
@@ -249,6 +243,22 @@ function App() {
         <div className="container">
           <h2 className="section-title animate-on-scroll">Work Experience</h2>
           <div className="timeline">
+            <div className="timeline-item animate-on-scroll">
+              <div className="timeline-dot timeline-dot-current"></div>
+              <div className="timeline-content">
+                <div className="experience-header">
+                  <h3>Junior Front-End Developer</h3>
+                  <span className="company">HPL Game Design Corporation</span>
+                  <span className="duration">Dec 2025 - Present</span>
+                </div>
+                <ul className="responsibilities">
+                  <li>Currently developing and maintaining front-end solutions for gaming applications and web platforms</li>
+                  <li>Collaborating with design and development teams to create engaging user interfaces and interactive experiences</li>
+                  <li>Implementing responsive web designs using modern frameworks and best practices</li>
+                  <li>Contributing to code reviews and optimization efforts to ensure high-quality deliverables</li>
+                </ul>
+              </div>
+            </div>
             <div className="timeline-item animate-on-scroll">
               <div className="timeline-dot"></div>
               <div className="timeline-content">
@@ -350,7 +360,7 @@ function App() {
                 <span>Bootstrap</span>
                 <span>Node.js</span>
                 <span>Tailwind CSS</span>
-                <span>Next.js</span>
+                
               </div>
             </div>
 
@@ -368,6 +378,7 @@ function App() {
                 <span>Jira</span>
                 <span>GitHub Copilot</span>
                 <span>Cursor AI</span>
+                <span>Claude AI</span>
               </div>
             </div>
 

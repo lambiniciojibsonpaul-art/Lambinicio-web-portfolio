@@ -742,6 +742,29 @@ section {
   border-radius: 50%;
   border: 3px solid white;
   box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.timeline-dot-current {
+  width: 18px;
+  height: 18px;
+  left: -9px;
+  background: #000000;
+  border: 3px solid white;
+  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.dark-mode .timeline-dot-current {
+  background: #ffffff;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.2), 0 0 15px rgba(255, 255, 255, 0.4);
+}
+
+.timeline-item:last-of-type {
+  opacity: 0.5;
+}
+
+.timeline-item:first-of-type {
+  opacity: 1;
 }
 
 .timeline-content {
