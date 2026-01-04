@@ -152,7 +152,7 @@ function App() {
           <div className="hero-text">
             <h1 className="greeting">Hi, I'm</h1>
             <h1 className="name">Jibson Paul Lambinicio</h1>
-            <p className="tagline">Junior Web Developer | Software Developer | AI-Powered Developer</p>
+            <p className="tagline">Web Developer | Software Developer | AI-Powered Developer</p>
             <p className="subtitle">Building innovative and reliable digital solutions with passion and creativity</p>
             <div className="cta-buttons">
               <button className="btn-primary" onClick={() => scrollToSection('contact')}>Get In Touch</button>
@@ -202,12 +202,12 @@ function App() {
                 <div className="stat-label">BS Information Technology Graduate</div>
               </div>
               <div className="stat-card">
-                <div className="stat-number">AI-Driven Workflow</div>
-                <div className="stat-label">Using AI tools to code faster, stay organized, and work smarter</div>
+                <div className="stat-number">Front-End Developer</div>
+                <div className="stat-label">Current Role: Developing responsive front-end solutions.</div>
               </div>
               <div className="stat-card">
-                <div className="stat-number">98% App Efficiency</div>
-                <div className="stat-label">Tested and optimized in real-world project development</div>
+                <div className="stat-number">AI-Driven Workflow</div>
+                <div className="stat-label">Using AI tools to code faster, stay organized, and work smarter</div>
               </div>
             </div>
           </div>
@@ -252,7 +252,7 @@ function App() {
                   <span className="duration">Dec 2025 - Present</span>
                 </div>
                 <ul className="responsibilities">
-                  <li>Currently developing and maintaining front-end solutions for gaming applications and web platforms</li>
+                  <li>Developing and maintaining front-end solutions for gaming applications and web platforms</li>
                   <li>Collaborating with design and development teams to create engaging user interfaces and interactive experiences</li>
                   <li>Implementing responsive web designs using modern frameworks and best practices</li>
                   <li>Contributing to code reviews and optimization efforts to ensure high-quality deliverables</li>
